@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { Typography } from '../theme';
 
 const HomeScreen = () => {
   return (
@@ -17,7 +18,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
   },
   text: {
-    fontSize: 24,
+    fontSize: 20,
+    fontFamily:Typography.bold
   },
 });
 
